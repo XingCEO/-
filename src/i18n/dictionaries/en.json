@@ -1,0 +1,173 @@
+{
+  "common": {
+    "nav": {
+      "home": "Home",
+      "portfolio": "Portfolio",
+      "about": "About",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "cta": {
+      "viewWork": "View Work",
+      "bookNow": "Book Now",
+      "learnMore": "Learn More",
+      "getInTouch": "Get in Touch",
+      "viewAll": "View All"
+    },
+    "footer": {
+      "copyright": "All rights reserved",
+      "followUs": "Follow Us"
+    },
+    "language": {
+      "en": "English",
+      "zh-TW": "繁體中文"
+    },
+    "theme": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Capturing Moments That Last Forever",
+      "subtitle": "Professional photography services for your special occasions",
+      "cta": "Explore My Work"
+    },
+    "featured": {
+      "title": "Featured Works",
+      "subtitle": "A glimpse into my recent projects",
+      "viewAll": "View All Works"
+    },
+    "about": {
+      "title": "About Me",
+      "description": "A passionate photographer dedicated to capturing the beauty of life through my lens."
+    },
+    "services": {
+      "title": "Services",
+      "subtitle": "Professional photography services tailored to your needs"
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Explore my collection of work",
+    "filter": {
+      "all": "All"
+    },
+    "noWorks": "No works found"
+  },
+  "work": {
+    "date": "Date",
+    "location": "Location",
+    "client": "Client",
+    "category": "Category",
+    "gallery": "Gallery",
+    "related": "Related Works"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Get to know the person behind the camera",
+    "story": {
+      "title": "My Story"
+    },
+    "approach": {
+      "title": "My Approach"
+    }
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "What I offer",
+    "includes": "What's included",
+    "duration": "Duration",
+    "price": "Starting from"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's create something beautiful together",
+    "form": {
+      "name": "Your Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "john@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+1 234 567 8900",
+      "service": "Service Interested In",
+      "servicePlaceholder": "Select a service",
+      "date": "Preferred Date",
+      "message": "Your Message",
+      "messagePlaceholder": "Tell me about your project...",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "success": "Thank you! Your message has been sent. I'll get back to you soon.",
+      "error": "Something went wrong. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "social": "Social Media"
+    }
+  },
+  "admin": {
+    "login": {
+      "title": "Admin Login",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Login",
+      "error": "Invalid email or password"
+    },
+    "nav": {
+      "dashboard": "Dashboard",
+      "works": "Works",
+      "categories": "Categories",
+      "bookings": "Bookings",
+      "settings": "Settings",
+      "logout": "Logout"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "totalWorks": "Total Works",
+      "totalBookings": "Total Bookings",
+      "newBookings": "New Bookings",
+      "recentBookings": "Recent Bookings"
+    },
+    "works": {
+      "title": "Works",
+      "addNew": "Add New Work",
+      "edit": "Edit",
+      "delete": "Delete",
+      "confirmDelete": "Are you sure you want to delete this work?"
+    },
+    "categories": {
+      "title": "Categories",
+      "addNew": "Add Category"
+    },
+    "bookings": {
+      "title": "Bookings",
+      "status": {
+        "new": "New",
+        "contacted": "Contacted",
+        "confirmed": "Confirmed",
+        "completed": "Completed",
+        "cancelled": "Cancelled"
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "save": "Save Changes"
+    },
+    "common": {
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "edit": "Edit",
+      "add": "Add",
+      "search": "Search",
+      "noData": "No data found",
+      "loading": "Loading...",
+      "success": "Success!",
+      "error": "An error occurred"
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "common": {
+    "nav": {
+      "home": "首頁",
+      "portfolio": "作品集",
+      "about": "關於我",
+      "services": "服務項目",
+      "contact": "聯繫我們"
+    },
+    "cta": {
+      "viewWork": "查看作品",
+      "bookNow": "立即預約",
+      "learnMore": "了解更多",
+      "getInTouch": "聯繫我們",
+      "viewAll": "查看全部"
+    },
+    "footer": {
+      "copyright": "版權所有",
+      "followUs": "追蹤我們"
+    },
+    "language": {
+      "en": "English",
+      "zh-TW": "繁體中文"
+    },
+    "theme": {
+      "light": "淺色",
+      "dark": "深色",
+      "system": "系統"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "捕捉永恆的瞬間",
+      "subtitle": "為您的特別時刻提供專業攝影服務",
+      "cta": "探索我的作品"
+    },
+    "featured": {
+      "title": "精選作品",
+      "subtitle": "近期專案精選",
+      "viewAll": "查看全部作品"
+    },
+    "about": {
+      "title": "關於我",
+      "description": "一位熱愛攝影的創作者，致力於透過鏡頭捕捉生活中的美好。"
+    },
+    "services": {
+      "title": "服務項目",
+      "subtitle": "為您量身打造的專業攝影服務"
+    }
+  },
+  "portfolio": {
+    "title": "作品集",
+    "subtitle": "探索我的攝影作品",
+    "filter": {
+      "all": "全部"
+    },
+    "noWorks": "尚無作品"
+  },
+  "work": {
+    "date": "日期",
+    "location": "地點",
+    "client": "客戶",
+    "category": "分類",
+    "gallery": "相片集",
+    "related": "相關作品"
+  },
+  "about": {
+    "title": "關於我",
+    "subtitle": "認識鏡頭背後的攝影師",
+    "story": {
+      "title": "我的故事"
+    },
+    "approach": {
+      "title": "我的理念"
+    }
+  },
+  "services": {
+    "title": "服務項目",
+    "subtitle": "我提供的服務",
+    "includes": "服務內容",
+    "duration": "服務時長",
+    "price": "價格起"
+  },
+  "contact": {
+    "title": "聯繫我們",
+    "subtitle": "讓我們一起創造美好的作品",
+    "form": {
+      "name": "您的姓名",
+      "namePlaceholder": "王小明",
+      "email": "電子郵件",
+      "emailPlaceholder": "example@email.com",
+      "phone": "電話號碼",
+      "phonePlaceholder": "0912-345-678",
+      "service": "感興趣的服務",
+      "servicePlaceholder": "請選擇服務",
+      "date": "希望的日期",
+      "message": "您的訊息",
+      "messagePlaceholder": "請告訴我您的專案需求...",
+      "submit": "送出訊息",
+      "submitting": "送出中...",
+      "success": "感謝您！訊息已送出，我們會盡快回覆您。",
+      "error": "發生錯誤，請稍後再試。"
+    },
+    "info": {
+      "title": "聯繫資訊",
+      "email": "電子郵件",
+      "phone": "電話",
+      "location": "地點",
+      "social": "社群媒體"
+    }
+  },
+  "admin": {
+    "login": {
+      "title": "管理員登入",
+      "email": "電子郵件",
+      "password": "密碼",
+      "submit": "登入",
+      "error": "電子郵件或密碼錯誤"
+    },
+    "nav": {
+      "dashboard": "儀表板",
+      "works": "作品管理",
+      "categories": "分類管理",
+      "bookings": "預約管理",
+      "settings": "設定",
+      "logout": "登出"
+    },
+    "dashboard": {
+      "title": "儀表板",
+      "totalWorks": "作品總數",
+      "totalBookings": "預約總數",
+      "newBookings": "新預約",
+      "recentBookings": "最近預約"
+    },
+    "works": {
+      "title": "作品管理",
+      "addNew": "新增作品",
+      "edit": "編輯",
+      "delete": "刪除",
+      "confirmDelete": "確定要刪除此作品嗎？"
+    },
+    "categories": {
+      "title": "分類管理",
+      "addNew": "新增分類"
+    },
+    "bookings": {
+      "title": "預約管理",
+      "status": {
+        "new": "新預約",
+        "contacted": "已聯繫",
+        "confirmed": "已確認",
+        "completed": "已完成",
+        "cancelled": "已取消"
+      }
+    },
+    "settings": {
+      "title": "設定",
+      "save": "儲存變更"
+    },
+    "common": {
+      "save": "儲存",
+      "cancel": "取消",
+      "delete": "刪除",
+      "edit": "編輯",
+      "add": "新增",
+      "search": "搜尋",
+      "noData": "查無資料",
+      "loading": "載入中...",
+      "success": "成功！",
+      "error": "發生錯誤"
+    }
+  }
+}

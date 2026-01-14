@@ -1,0 +1,112 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+// Admin user for authentication
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  name      String?
+  role      String   @default("admin")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// Portfolio work/project
+model Work {
+  id              String    @id @default(cuid())
+  slug            String    @unique
+  titleEn         String
+  titleZhTW       String
+  descriptionEn   String?
+  descriptionZhTW String?
+  coverImage      String
+  date            DateTime?
+  location        String?
+  client          String?
+  featured        Boolean   @default(false)
+  published       Boolean   @default(true)
+  order           Int       @default(0)
+  category        Category? @relation(fields: [categoryId], references: [id])
+  categoryId      String?
+  images          Image[]
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+}
+
+// Gallery images for a work
+model Image {
+  id        String   @id @default(cuid())
+  url       String
+  alt       String?
+  width     Int?
+  height    Int?
+  order     Int      @default(0)
+  work      Work     @relation(fields: [workId], references: [id], onDelete: Cascade)
+  workId    String
+  createdAt DateTime @default(now())
+}
+
+// Work categories
+model Category {
+  id              String   @id @default(cuid())
+  slug            String   @unique
+  nameEn          String
+  nameZhTW        String
+  descriptionEn   String?
+  descriptionZhTW String?
+  order           Int      @default(0)
+  works           Work[]
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+// Photography services offered
+model Service {
+  id              String    @id @default(cuid())
+  slug            String    @unique
+  nameEn          String
+  nameZhTW        String
+  descriptionEn   String
+  descriptionZhTW String
+  price           String?
+  duration        String?
+  icon            String?
+  order           Int       @default(0)
+  active          Boolean   @default(true)
+  bookings        Booking[]
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+}
+
+// Contact/booking inquiries
+model Booking {
+  id            String    @id @default(cuid())
+  name          String
+  email         String
+  phone         String?
+  service       Service?  @relation(fields: [serviceId], references: [id])
+  serviceId     String?
+  preferredDate DateTime?
+  message       String
+  status        String    @default("new")
+  notes         String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
+
+// Site settings (key-value store)
+model Setting {
+  id        String   @id @default(cuid())
+  key       String   @unique
+  value     String
+  updatedAt DateTime @updatedAt
+}
