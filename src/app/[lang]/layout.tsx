@@ -42,8 +42,8 @@ export default async function LangLayout({
   const pathname = headersList.get('x-pathname') || headersList.get('x-invoke-path') || '';
   const isAdminRoute = pathname.includes('/admin');
 
-  // For admin routes, only render children with ThemeProvider (admin has its own layout)
-  if (isAdminRoute) {
+  // For admin routes and login, only render children with ThemeProvider
+  if (isAdminRoute || pathname.includes('/login')) {
     return (
       <ThemeProvider
         attribute="class"
